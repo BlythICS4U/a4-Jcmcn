@@ -1,0 +1,23 @@
+Number of surveys completed: 2
+
+Question 1:
+Shooters - 0
+Fighters - 1
+Platformers - 2
+Strategy - 0
+RPG - 1
+Puzzle - 0
+Arcade - 2
+Sports - 0
+Other - 0
+
+Question 2:
+< 5 hours - 1
+< 10 hours - 1
+< 15 hours - 0
+15+ hours - 0
+
+Question 3:
+\f\aeffasga
+yulyuou9p
+

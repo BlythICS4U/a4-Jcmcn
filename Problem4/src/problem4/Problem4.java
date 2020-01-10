@@ -5,17 +5,41 @@
  */
 package problem4;
 
+import javax.swing.JFrame;
+
 /**
  *
- * @author cgallinaro
+ * @author Joca
  */
 public class Problem4 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    private static void createAndShowGUI() {
+
+        /*
+        Creating the frame and panel for the balls
+        */
+        
+        JFrame frame = new JFrame("Bouncing Ball");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        BallPanel bp = new BallPanel();
+        frame.add(bp);
+        frame.setSize(800, 800);
+        frame.setVisible(true);
+
     }
-    
+
+    public static void main(String[] args) {
+
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+
+            public void run() {
+
+                createAndShowGUI();
+
+            }
+
+        });
+
+    }
+
 }
